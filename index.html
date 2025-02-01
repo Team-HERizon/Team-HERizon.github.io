@@ -3,30 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team HERizon</title>
+    <title>Project Prototype</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        :root {
+            --planetary: #334EAC;
+            --venus: #BAD6EB;
+            --universe: #7096D1;
+            --meteor: #F7F2EB;
+            --galaxy: #081F5C;
+            --milkyway: #FFF9F0;
+            --sky: #D0E3FF;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--milkyway);
+            color: var(--galaxy);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: var(--planetary);
+            padding: 1rem;
+            text-align: center;
+            color: white;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: var(--sky);
+        }
+        .cta-button {
+            background-color: var(--venus);
+            padding: 10px 20px;
+            text-decoration: none;
+            color: var(--galaxy);
+            border-radius: 5px;
+        }
+        .grid-section {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: var(--meteor);
+        }
+        .box, .review, .image-box {
+            background-color: var(--universe);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: white;
+        }
+        footer {
+            background-color: var(--galaxy);
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1 class="header">Welcome to Team HERizon</h1>
         <nav>
+            <div class="logo">Project Prototype</div>
             <ul>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#feedback">Feedback</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="about">
-        <h2>Our Research Question</h2>
-        <p>Do Self-Defense Programs Play a Vital Role in Empowering Women and Reducing Gender-Based Violence?.</p>
+    <section class="hero">
+        <h1>Master the Art of Self-Defense</h1>
+        <p>Join our movement to empower women through self-defense programs.</p>
+        <a href="#join" class="cta-button">Join Now</a>
     </section>
-
+    <section id="about" class="grid-section">
+        <div class="box">Meet Your Mentors</div>
+        <div class="box">Guest Speaker: Lieutenant Commander</div>
+        <div class="box">Expert Insights</div>
+    </section>
+    <section id="work" class="grid-section">
+        <h2>What We Have Done Together</h2>
+        <div class="image-gallery">
+            <div class="image-box"></div>
+            <div class="image-box"></div>
+            <div class="image-box"></div>
+        </div>
+    </section>
+    <section id="feedback">
+        <h2>Happy Participants</h2>
+        <div class="review">Testimonial 1</div>
+        <div class="review">Testimonial 2</div>
+    </section>
     <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: Herizon6.gp@gmail.com</p>
-        <p>Instagram: @_herizon.gp</p>
+        <h2>Join the Movement</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <button type="submit">Submit</button>
+        </form>
     </section>
+    <footer>
+        <p>© 2025 Project Prototype. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
-
