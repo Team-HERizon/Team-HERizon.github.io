@@ -90,3 +90,52 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+/* Interviews Section */
+#interviews {
+    background: #F7F2EB; /* Meteor */
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.interview {
+    background: #FFF9F0; /* Milky Way */
+    padding: 20px;
+    border-left: 5px solid #334EAC; /* Planetary */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Survey Results Section */
+#survey-results {
+    background: #D0E3FF; /* Sky */
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.survey-chart {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Us Section */
+#contact {
+    background: #081F5C; /* Galaxy */
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#contact a {
+    color: #BAD6EB; /* Venus */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
