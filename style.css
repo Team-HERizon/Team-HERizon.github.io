@@ -1,16 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Merryweather, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #7ec0cf;
+    color: #6784a3;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #4c66af;
     padding: 20px;
     text-align: center;
-    color: white;
+    color: #b8c2d6;
 }
 
 nav ul {
@@ -25,7 +25,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #73889e;
     font-weight: bold;
 }
 
@@ -35,7 +35,7 @@ section {
 }
 
 #about, #contact {
-    background: white;
+    background: #73889e;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
