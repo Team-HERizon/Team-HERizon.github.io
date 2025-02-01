@@ -1,4 +1,45 @@
 /* General Styles */
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* CSS Sample */
+        body {
+            background-color: #ffffff;
+            color: #004080;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+        }
+
+        nav a {
+            color: #66ccff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 10px;
+        }
+
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
 body {
     font-family: Arial, sans-serif;
     margin: 0;
